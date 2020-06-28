@@ -9,7 +9,8 @@ public class DealershipTest {
 
     public static void main(String[] args) {
         while (true) {
-            String menu = "MENU\n1, ADD MAKE\n2, REMOVE MAKE\n3, DISPLAY MAKES\n4, ADD CAR\n5, REMOVE CAR\n6, SHOW CARS BY MAKE\n7, SHOW ALL CARS\n0, EXIT";
+            String menu = "MENU\n1, ADD MAKE\n2, REMOVE MAKE\n3, DISPLAY MAKES\n4, ADD CAR\n5, REMOVE CAR" +
+                    "\n6, SHOW CARS BY MAKE\n7, SHOW CARS BY MAKE AND MODEL\n8, SHOW ALL CARS\n0, EXIT";
             switch (getOption(menu, 8)) {
                 case 0:
                     if (getYesNo("ARE YOU SURE?")) System.exit(0);
